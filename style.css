@@ -10,6 +10,7 @@ header { display: flex; align-items: baseline; justify-content: space-between; g
 header a { color: var(--fg); text-decoration: none; font-weight: 700; font-size: 1.4rem; }
 nav { display: flex; gap: 16px; font-size: 0.95rem; }
 nav a { color: var(--accent); }
+main a { color: var(--accent); text-underline-offset: 2px; }  /* 本文のリンク（ダークモードで既定の青が読みにくかった） */
 h1 { font-size: 1.6rem; line-height: 1.4; margin: 0 0 8px; }
 h2 { font-size: 1.15rem; margin: 32px 0 8px; }
 p, li { margin: 0 0 8px; }
