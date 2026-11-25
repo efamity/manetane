@@ -1,0 +1,21 @@
+/* マネたね 公開用ページ（サポート・プライバシーポリシー）。外部の読み込みなし。 */
+:root { --bg: #f4f7f3; --surface: #ffffff; --fg: #18231d; --muted: #5b6b61; --line: #d6e0d4; --accent: #2f6f4f; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0f1612; --surface: #18221c; --fg: #e7efe9; --muted: #9db0a4; --line: #2d3d34; --accent: #7cc39a; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif; line-height: 1.8; }
+main { max-width: 720px; margin: 0 auto; padding: 24px max(16px, env(safe-area-inset-left)) 64px; }
+header { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; border-bottom: 1px solid var(--line); padding-bottom: 12px; margin-bottom: 24px; }
+header a { color: var(--fg); text-decoration: none; font-weight: 700; font-size: 1.4rem; }
+nav { display: flex; gap: 16px; font-size: 0.95rem; }
+nav a { color: var(--accent); }
+h1 { font-size: 1.6rem; line-height: 1.4; margin: 0 0 8px; }
+h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+p, li { margin: 0 0 8px; }
+.muted { color: var(--muted); font-size: 0.9rem; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; margin: 16px 0; }
+dt { font-weight: 700; margin-top: 16px; }
+dd { margin: 4px 0 0; }
+code { background: var(--line); padding: 1px 6px; border-radius: 4px; }
+footer { margin-top: 48px; font-size: 0.85rem; color: var(--muted); }
